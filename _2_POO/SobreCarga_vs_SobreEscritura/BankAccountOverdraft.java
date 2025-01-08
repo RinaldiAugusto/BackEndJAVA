@@ -7,4 +7,11 @@ public class BankAccountOverdraft extends BankAccount{
         super(accountOwner);
         this.extraAmount = extraAmount;
     }
+
+    @Override
+    public void withdraw(Double amount) {
+        if (balance + extraAmount > amount){
+            super.withdraw(amount);
+        }
+    }
 }

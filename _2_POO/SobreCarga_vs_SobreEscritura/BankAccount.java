@@ -2,7 +2,7 @@ package _2_POO.SobreCarga_vs_SobreEscritura;
 
 public abstract class BankAccount {
     private String accountOwner;
-    private Double balance;
+    protected Double balance;
 
     public BankAccount(String accountOwner) {
         this.accountOwner = accountOwner;

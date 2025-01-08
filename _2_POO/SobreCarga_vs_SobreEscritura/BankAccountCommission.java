@@ -10,7 +10,7 @@ public class BankAccountCommission extends BankAccount{
 
     @Override
     public void withdraw(Double amount) {
-        Double realWithdraw = amount -(amount*commission);
+        Double realWithdraw = amount + (amount*commission);
         super.withdraw(realWithdraw);
     }
 
