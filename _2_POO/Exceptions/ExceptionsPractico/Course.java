@@ -26,4 +26,8 @@ public class Course {
     public Integer getId() {
         return id;
     }
+
+    public String getSubjet() {
+        return subjet;
+    }
 }

@@ -1,4 +1,4 @@
-package _3_Exercises.Ej2;
+package _3_Exercises.Ej2.Herencia;
 
 public class Animal {
     private String raza;

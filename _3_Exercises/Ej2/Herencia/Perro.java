@@ -1,4 +1,4 @@
-package _3_Exercises.Ej2;
+package _3_Exercises.Ej2.Herencia;
 
 public class Perro extends Animal{
     public Perro(String raza, Integer age) {

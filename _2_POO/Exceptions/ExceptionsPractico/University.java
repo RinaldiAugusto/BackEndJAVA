@@ -27,13 +27,17 @@ public class University {
         studentSet.add(student);
     }
 
-    public void suscribeStudent(Integer courseId, Integer studentId) {
+    public void suscribeStudent(Integer courseId, Integer studentId) throws Exception {
         Course course = findCourse(courseId);
         Student student = findStudent(studentId);
-        course.addStudents(student);
         if (courseId == null){
-            throw new CourseException(courseId + "No se encontro id de curso.");
+            throw new CourseException("Id de curso no valido");
         }
+        if (studentId == null){
+            throw new StudentException("Id alumno no valido");
+        }
+        course.addStudents(student);
+        System.out.println(student.getName() + " Se inscribio correctamente a " + course.getSubjet());
 
     }
 
