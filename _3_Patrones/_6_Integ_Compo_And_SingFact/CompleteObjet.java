@@ -1,4 +1,4 @@
-package _3_Patrones._4_Integ_Compo_And_SingFact;
+package _3_Patrones._6_Integ_Compo_And_SingFact;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,7 +11,13 @@ public class CompleteObjet {
     }
 
     public void addGeometricFigure(String code){
-        geometricFigureList.add(GeometricFigureFactory.getInstance().createFigure(code));
+        try {
+            GeometricFigure geometricFigure = GeometricFigureFactory.getInstance().createFigure(code);
+            geometricFigureList.add(geometricFigure);
+        }catch (GeometricFigureFactoryException e){
+            System.out.println(e.getMessage());
+        }
+
     }
 
     public Double calculateTotalArea(){

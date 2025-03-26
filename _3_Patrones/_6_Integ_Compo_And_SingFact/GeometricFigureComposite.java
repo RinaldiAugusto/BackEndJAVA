@@ -1,6 +1,4 @@
-package _3_Patrones._4_Integ_Compo_And_SingFact;
-
-import com.sun.source.tree.BreakTree;
+package _3_Patrones._6_Integ_Compo_And_SingFact;
 
 import java.util.ArrayList;
 import java.util.List;

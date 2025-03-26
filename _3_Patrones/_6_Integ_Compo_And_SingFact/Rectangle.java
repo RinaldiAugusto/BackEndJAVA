@@ -1,4 +1,4 @@
-package _3_Patrones._4_Integ_Compo_And_SingFact;
+package _3_Patrones._6_Integ_Compo_And_SingFact;
 
 public class Rectangle implements GeometricFigure{
     private Double base;
