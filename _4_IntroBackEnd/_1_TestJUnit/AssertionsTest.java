@@ -1,4 +1,4 @@
-package _4_IntroBackEnd;
+package _4_IntroBackEnd._1_TestJUnit;
 
 import org.junit.jupiter.api.Test;
 
