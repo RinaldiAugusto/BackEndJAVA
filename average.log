@@ -1,0 +1,2 @@
+[2025-04-02 18:54:02] [ INFO ] [AverageList:15] La longitud de la lista es mayor a 5 y el promedio es: 5
+[2025-04-02 18:54:02] [ ERROR] [Main:20] La lista está vacía java.lang.Exception
