@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/_4_IntroBackEnd/_3_AccesoBD/BD/BD.iml" filepath="$PROJECT_DIR$/_4_IntroBackEnd/_3_AccesoBD/BD/BD.iml" />
-      <module fileurl="file://$PROJECT_DIR$/_4_IntroBackEnd/_2_Logging/LogForJ/LogForJ.iml" filepath="$PROJECT_DIR$/_4_IntroBackEnd/_2_Logging/LogForJ/LogForJ.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/POO JAVA 01.iml" filepath="$PROJECT_DIR$/.idea/POO JAVA 01.iml" />
     </modules>
   </component>
