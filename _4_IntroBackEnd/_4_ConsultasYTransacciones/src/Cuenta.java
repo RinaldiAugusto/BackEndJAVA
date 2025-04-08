@@ -64,6 +64,9 @@ public class Cuenta {
 
             preparedStatementUpdate.execute();
 
+            // Forzar excepcion
+            int exception = 4/0;
+
             connection.commit();
 
             // BUENA PRACTICA...
@@ -81,6 +84,11 @@ public class Cuenta {
 
 
         }catch (Exception e){
+            try {
+                connection.rollback();
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
             e.printStackTrace();
         } finally {
             try {
@@ -90,10 +98,36 @@ public class Cuenta {
             }
         }
 
+        try {
+            connection = getConnection();
+
+            Statement statement = connection.createStatement();
+            ResultSet resultSet2 = statement.executeQuery(SQL_SELECT);
+
+            while (resultSet2.next()){
+                System.out.println("El saldo actualizado es:" +
+                        " ID: " + resultSet2.getInt(1) +
+                        " - Nro cuenta: " + resultSet2.getInt(2) +
+                        " - Nombre: " + resultSet2.getString(3) +
+                        " - Saldo: " + resultSet2.getDouble(4));
+            }
+
+
+        } catch (Exception e){
+            e.printStackTrace();
+        }finally {
+            try {
+                connection.close();
+            } catch (Exception e){
+                e.printStackTrace();
+            }
+        }
+
+
     }
 
     public static Connection getConnection() throws Exception {
         Class.forName("org.h2.Driver");
-        return DriverManager.getConnection("jdbc:h2:mem:~/ConsultasYTransacciones", "sa", "sa");
+        return DriverManager.getConnection("jdbc:h2:~/ConsultasYTransacciones", "sa", "sa");
     }
 }
