@@ -1,5 +1,3 @@
-package _4_IntroBackEnd._5_ClinicaOdontologica.src;
-
 public class Dentist {
     private Integer id;
     private Integer registration;

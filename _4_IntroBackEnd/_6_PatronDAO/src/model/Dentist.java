@@ -1,4 +1,4 @@
-package _4_IntroBackEnd._6_PatronDAO.src.model;
+package model;
 
 public class Dentist {
 

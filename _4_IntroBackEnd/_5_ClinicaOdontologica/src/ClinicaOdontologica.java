@@ -1,5 +1,3 @@
-package _4_IntroBackEnd._5_ClinicaOdontologica.src;
-
 import java.sql.*;
 import java.util.logging.Logger;
 

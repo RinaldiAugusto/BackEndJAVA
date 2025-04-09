@@ -1,7 +1,7 @@
-package _4_IntroBackEnd._6_PatronDAO.src.service;
+package service;
 
-import _4_IntroBackEnd._6_PatronDAO.src.dao.IDao;
-import _4_IntroBackEnd._6_PatronDAO.src.model.Patient;
+import _4_IntroBackEndd._6_PatronDAO.src.dao.IDao;
+import _4_IntroBackEndd._6_PatronDAO.src.model.Patient;
 
 import java.util.List;
 

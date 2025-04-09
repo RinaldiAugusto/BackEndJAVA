@@ -4,6 +4,13 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/_4_IntroBackEnd/_3_AccesoBD/BD/BD.iml" filepath="$PROJECT_DIR$/_4_IntroBackEnd/_3_AccesoBD/BD/BD.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/BackEndJava.iml" filepath="$PROJECT_DIR$/.idea/BackEndJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_4_IntroBackEnd/_1_TestJUnit/_1_TestJUnit.iml" filepath="$PROJECT_DIR$/_4_IntroBackEnd/_1_TestJUnit/_1_TestJUnit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_4_IntroBackEnd/_2_LoggingLog4j/_2_LoggingLog4j.iml" filepath="$PROJECT_DIR$/_4_IntroBackEnd/_2_LoggingLog4j/_2_LoggingLog4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_4_IntroBackEnd/_3_AccesoBD/_3_AccesoBD.iml" filepath="$PROJECT_DIR$/_4_IntroBackEnd/_3_AccesoBD/_3_AccesoBD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_4_IntroBackEnd/_4_ConsultasYTransacciones/_4_ConsultasYTransacciones.iml" filepath="$PROJECT_DIR$/_4_IntroBackEnd/_4_ConsultasYTransacciones/_4_ConsultasYTransacciones.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_4_IntroBackEnd/_4_IntroBackEnd.iml" filepath="$PROJECT_DIR$/_4_IntroBackEnd/_4_IntroBackEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_4_IntroBackEnd/_5_ClinicaOdontologica/_5_ClinicaOdontologica.iml" filepath="$PROJECT_DIR$/_4_IntroBackEnd/_5_ClinicaOdontologica/_5_ClinicaOdontologica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_4_IntroBackEnd/_6_PatronDAO/_6_PatronDAO.iml" filepath="$PROJECT_DIR$/_4_IntroBackEnd/_6_PatronDAO/_6_PatronDAO.iml" />
     </modules>
   </component>
 </project>

@@ -1,11 +1,14 @@
-package _4_IntroBackEnd._6_PatronDAO.src.dao.impl;
+package dao.impl;
 
-import _4_IntroBackEnd._6_PatronDAO.src.dao.BD;
-import _4_IntroBackEnd._6_PatronDAO.src.dao.IDao;
-import _4_IntroBackEnd._6_PatronDAO.src.model.Dentist;
+import _4_IntroBackEndd._6_PatronDAO.src.dao.BD;
+import _4_IntroBackEndd._6_PatronDAO.src.dao.IDao;
+import _4_IntroBackEndd._6_PatronDAO.src.model.Dentist;
 import org.apache.log4j.Logger;
 
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 

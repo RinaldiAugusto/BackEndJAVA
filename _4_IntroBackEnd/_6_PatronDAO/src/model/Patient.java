@@ -1,7 +1,6 @@
-package _4_IntroBackEnd._6_PatronDAO.src.model;
+package model;
 
 import java.time.LocalDate;
-import java.util.Locale;
 
 public class Patient {
     private Integer id;

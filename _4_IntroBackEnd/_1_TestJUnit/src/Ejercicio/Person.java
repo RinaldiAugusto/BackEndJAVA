@@ -1,4 +1,4 @@
-package _4_IntroBackEnd._1_TestJUnit.Ejercicio;
+package Ejercicio;
 
 public class Person {
     private String name;

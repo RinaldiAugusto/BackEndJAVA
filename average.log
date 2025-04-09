@@ -32,3 +32,5 @@
 [2025-04-04 17:39:57] [ INFO ] [Animal:73] Nombre: Molly - Tipo: gato
 [2025-04-04 17:39:57] [ INFO ] [Animal:73] Nombre: Helga - Tipo: perro
 [2025-04-04 17:39:57] [ INFO ] [Animal:73] Nombre: Rocky - Tipo: tortuga
+[2025-04-09 14:29:38] [ INFO ] [AverageList:15] La longitud de la lista es mayor a 5 y el promedio es: 5
+[2025-04-09 14:29:38] [ ERROR] [Main:20] La lista está vacía java.lang.Exception

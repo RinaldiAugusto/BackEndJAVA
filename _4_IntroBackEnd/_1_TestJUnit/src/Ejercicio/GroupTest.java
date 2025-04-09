@@ -1,4 +1,4 @@
-package _4_IntroBackEnd._1_TestJUnit.Ejercicio;
+package Ejercicio;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

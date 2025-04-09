@@ -1,6 +1,3 @@
-package _4_IntroBackEnd._4_ConsultasYTransacciones.src;
-
-import javax.swing.plaf.nimbus.State;
 import java.sql.*;
 
 public class Cuenta {

@@ -1,4 +1,4 @@
-package _4_IntroBackEnd._6_PatronDAO.src.dao;
+package dao;
 
 import java.util.List;
 

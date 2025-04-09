@@ -1,5 +1,3 @@
-package _4_IntroBackEnd._3_AccesoBD.src;
-
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;

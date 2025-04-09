@@ -1,5 +1,3 @@
-package _4_IntroBackEnd._1_TestJUnit;
-
 import org.junit.jupiter.api.*;
 
 public class AnotacionesTest {

@@ -1,8 +1,8 @@
-package _4_IntroBackEnd._6_PatronDAO.src.dao;
+package dao;
 
-import org.h2.Driver;
-
-import java.sql.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.Statement;
 
 public class BD {
     public static Connection getConnection() throws Exception{

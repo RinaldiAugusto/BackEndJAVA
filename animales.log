@@ -6,3 +6,19 @@
 2025-04-04 17:40:33 | INFO  | Animal01:71 | Nombre: India - Tipo: Perro
 2025-04-04 17:40:33 | INFO  | Animal01:71 | Nombre: Napoleon - Tipo: Perro
 2025-04-04 17:40:33 | INFO  | Animal01:71 | Nombre: Melba - Tipo: Gato
+2025-04-09 14:32:57 | INFO  | Animal:56 | Nombre: Molly - Tipo: gato
+2025-04-09 14:32:57 | INFO  | Animal:56 | Nombre: Helga - Tipo: perro
+2025-04-09 14:32:57 | INFO  | Animal:56 | Nombre: Melba - Tipo: perro
+2025-04-09 14:32:57 | INFO  | Animal:56 | Nombre: Rocky - Tipo: tortuga
+2025-04-09 14:32:57 | WARN  | Animal:62 | ADVERTENCIA: Se borró un animal de la tabla con el id = 3
+2025-04-09 14:32:57 | INFO  | Animal:73 | Nombre: Molly - Tipo: gato
+2025-04-09 14:32:57 | INFO  | Animal:73 | Nombre: Helga - Tipo: perro
+2025-04-09 14:32:57 | INFO  | Animal:73 | Nombre: Rocky - Tipo: tortuga
+2025-04-09 14:33:01 | INFO  | Animal01:56 | Nombre: India - Tipo: Perro
+2025-04-09 14:33:01 | INFO  | Animal01:56 | Nombre: Napoleon - Tipo: Perro
+2025-04-09 14:33:01 | INFO  | Animal01:56 | Nombre: Melba - Tipo: Gato
+2025-04-09 14:33:01 | INFO  | Animal01:56 | Nombre: Rocky - Tipo: Tortuga
+2025-04-09 14:33:01 | WARN  | Animal01:61 | ADVERTENCIA: Se borro un animal de la tabla con ID = 4
+2025-04-09 14:33:01 | INFO  | Animal01:70 | Nombre: India - Tipo: Perro
+2025-04-09 14:33:01 | INFO  | Animal01:70 | Nombre: Napoleon - Tipo: Perro
+2025-04-09 14:33:01 | INFO  | Animal01:70 | Nombre: Melba - Tipo: Gato
