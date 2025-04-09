@@ -1,8 +1,8 @@
 package dao.impl;
 
-import _4_IntroBackEndd._6_PatronDAO.src.dao.BD;
-import _4_IntroBackEndd._6_PatronDAO.src.dao.IDao;
-import _4_IntroBackEndd._6_PatronDAO.src.model.Dentist;
+import dao.BD;
+import dao.IDao;
+import model.Dentist;
 import org.apache.log4j.Logger;
 
 import java.sql.Connection;

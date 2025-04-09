@@ -1,7 +1,8 @@
 package service;
 
-import _4_IntroBackEndd._6_PatronDAO.src.dao.IDao;
-import _4_IntroBackEndd._6_PatronDAO.src.model.Dentist;
+import dao.IDao;
+import dao.impl.DentistDaoH2;
+import model.Dentist;
 
 import java.util.List;
 
@@ -9,7 +10,7 @@ public class DentistService {
 
     private IDao<Dentist> dentistIDao;
 
-    public DentistService(IDao<Dentist> dentistIDao){
+    public DentistService(DentistDaoH2 dentistIDao){
         this.dentistIDao = dentistIDao;
     }
 

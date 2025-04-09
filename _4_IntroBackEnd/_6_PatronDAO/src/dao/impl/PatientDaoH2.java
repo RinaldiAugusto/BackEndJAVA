@@ -1,7 +1,7 @@
 package dao.impl;
 
-import _4_IntroBackEndd._6_PatronDAO.src.dao.IDao;
-import _4_IntroBackEndd._6_PatronDAO.src.model.Patient;
+import dao.IDao;
+import model.Patient;
 
 import java.util.List;
 

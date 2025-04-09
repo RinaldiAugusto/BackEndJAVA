@@ -1,7 +1,7 @@
-import _4_IntroBackEndd._6_PatronDAO.src.dao.BD;
-import _4_IntroBackEndd._6_PatronDAO.src.dao.impl.DentistDaoH2;
-import _4_IntroBackEndd._6_PatronDAO.src.model.Dentist;
-import _4_IntroBackEndd._6_PatronDAO.src.service.DentistService;
+import dao.BD;
+import dao.impl.DentistDaoH2;
+import model.Dentist;
+import service.DentistService;
 
 public class Main {
     public static void main(String[] args) {
