@@ -3,5 +3,9 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/_4_IntroBackEnd/_7_ClinicaMaven/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/_4_IntroBackEnd/_7_ClinicaMaven/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_4_IntroBackEnd/_8_Serializable/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_4_IntroBackEnd/_8_Serializable/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_4_IntroBackEnd/_9_Buffered/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/_4_IntroBackEnd/_9_Buffered/src/main/resources" charset="UTF-8" />
   </component>
 </project>

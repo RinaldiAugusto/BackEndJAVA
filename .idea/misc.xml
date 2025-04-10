@@ -5,6 +5,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/_4_IntroBackEnd/_7_ClinicaMaven/pom.xml" />
+        <option value="$PROJECT_DIR$/_4_IntroBackEnd/_8_Serializable/pom.xml" />
+        <option value="$PROJECT_DIR$/_4_IntroBackEnd/_9_Buffered/pom.xml" />
       </list>
     </option>
   </component>
